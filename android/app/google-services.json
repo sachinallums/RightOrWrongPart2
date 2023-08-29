@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "205290426477",
+    "project_id": "rightorwrongp2",
+    "storage_bucket": "rightorwrongp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205290426477:android:7fb047f4685c9d665fef64",
+        "android_client_info": {
+          "package_name": "com.mycompany.scsnlrightorwrong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205290426477-0j7umj4lba03m8j8sj5ropdk8o3p1jqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr6UuqmmzVGIs8vOBFD-4wTAGcaJqjcP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205290426477-0j7umj4lba03m8j8sj5ropdk8o3p1jqf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "205290426477-n481in79lu4h939h5ib9d27nnefaf7fv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.scsnlrightorwrong"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
