@@ -1,2 +1,7 @@
-# RightOrWrongPart2
-Animaths Right or Wrong Part 2 iSNS intervention game
+# iSNSw5RightOrWrongp2
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
