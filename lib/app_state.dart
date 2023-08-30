@@ -107,13 +107,25 @@ class FFAppState extends ChangeNotifier {
     _answeredQuestion = _value;
   }
 
-  int _curLevel = 7;
+  int _curLevel = 1;
   int get curLevel => _curLevel;
   set curLevel(int _value) {
     _curLevel = _value;
   }
 
-  int _curCycle = 3;
+  int _totalSessionQuestionsAnswered = 0;
+  int get totalSessionQuestionsAnswered => _totalSessionQuestionsAnswered;
+  set totalSessionQuestionsAnswered(int _value) {
+    _totalSessionQuestionsAnswered = _value;
+  }
+
+  int _totalSessionNumCorrect = 0;
+  int get totalSessionNumCorrect => _totalSessionNumCorrect;
+  set totalSessionNumCorrect(int _value) {
+    _totalSessionNumCorrect = _value;
+  }
+
+  int _curCycle = 1;
   int get curCycle => _curCycle;
   set curCycle(int _value) {
     _curCycle = _value;

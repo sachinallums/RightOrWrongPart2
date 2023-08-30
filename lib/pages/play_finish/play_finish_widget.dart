@@ -122,14 +122,14 @@ class _PlayFinishWidgetState extends State<PlayFinishWidget> {
                           onPressed: () async {
                             context.pushNamed('HomePage');
 
-                            await FFAppState()
-                                .sessionParentReference!
-                                .update(createGameSessionDataRecordData(
-                                  accuracy: functions.getAccuracy(
-                                      buttonGameSessionDataRecord!.numCorrect,
-                                      buttonGameSessionDataRecord!
-                                          .numQuestionsAnswered),
-                                ));
+                            // await FFAppState()
+                            //     .sessionParentReference!
+                            //     .update(createGameSessionDataRecordData(
+                            //       accuracy: functions.getAccuracy(
+                            //           buttonGameSessionDataRecord!.numCorrect,
+                            //           buttonGameSessionDataRecord!
+                            //               .numQuestionsAnswered),
+                            //     ));
                           },
                           text: 'Continue',
                           options: FFButtonOptions(
